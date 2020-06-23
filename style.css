@@ -1,0 +1,53 @@
+.middle-logo {
+  margin: auto;
+}
+
+.top-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 400px;;
+}
+
+.img-container {
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 30%;
+  right: auto;
+  left: 40%;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: .5px solid black;
+}
+
+.small-text {
+  text-decoration: underline;
+}
+
+.middle {
+  text-align: center;
+  padding: 40px;
+}
+
+.middle-text {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.flex-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
