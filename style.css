@@ -23,15 +23,23 @@
   padding-left: 20px;
   padding-right: 20px;
   border: .5px solid black;
+  font-family: Arial Black;
+  padding: 20px 20px 20px 20px;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 10px;
 }
 
 .small-text {
   text-decoration: underline;
+  text-decoration-color: goldenrod;
+  border-bottom: 20px;
 }
 
 .middle {
   text-align: center;
   padding: 40px;
+  font-family: arial black;
 }
 
 .middle-text {
@@ -46,6 +54,26 @@
   align-items: center;
   margin: 0 310px 0px;
   padding: 45px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: arial rounded;
+}
+
+#all:hover {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+#lifestyle:hover {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+#accessories:hover {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+#essentials:hover {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
 }
 
 .card-deck {
@@ -57,6 +85,7 @@
   margin: 0 100px 100px;
   width: 50%;
   border: none;
+  font-family: arial black;
 }
 
 .card img {
@@ -66,4 +95,17 @@
 
 .checked {
   color: goldenrod;
+}
+
+svg {
+  margin-right: 20px;
+}
+
+select {
+  margin-right: 30px;
+  border: none;
+}
+
+nav {
+  font-family: arial rounded;
 }
