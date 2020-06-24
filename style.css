@@ -44,10 +44,26 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 5px;
+  margin: 0 310px 0px;
+  padding: 45px;
+}
+
+.card-deck {
+  padding: 20px;
+  margin: 0 80px 0px;
 }
 
 .card {
-  display: flex;
-  flex-direction: row;
+  margin: 0 100px 100px;
+  width: 50%;
+  border: none;
+}
+
+.card img {
+  height: 210px;
+  width: 200px;
+}
+
+.checked {
+  color: goldenrod;
 }
